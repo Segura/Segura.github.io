@@ -1,6 +1,8 @@
 #!/bin/bash
 
-git submodule update --init --recursive
+git submodule add --force git@github.com:Segura/telegram-contests-js-2019.git telegram-contests-js-2019
+git rm -r --cached telegram-contests-js-2019
+rm .gitmodules
 
 cd ./telegram-contests-js-2019
 git pull
