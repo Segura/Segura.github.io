@@ -26,6 +26,7 @@ body {
 @media screen and (max-width: 1200px) {
     .containers {
         grid-template-columns: 1fr;
+        margin: 10px;
     }
     .container:nth-child(5) {
         grid-column: 1;

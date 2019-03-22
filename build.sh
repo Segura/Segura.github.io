@@ -1,8 +1,9 @@
 #!/bin/bash
 
-git submodule update
+git submodule update --init --recursive
 
 cd ./telegram-contests-js-2019
+git pull
 npm i
 npm run build
 
